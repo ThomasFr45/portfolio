@@ -1,0 +1,130 @@
+.profil-card {
+  margin-top:75px;
+  background-color: #fff;
+  width: 80%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom:50px;
+}
+
+.profil-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  background: #353b48;
+  display:block;
+  height: 5px;
+  width: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.658);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+  height: 2px;
+  float:left;
+  background: #2187e7;
+}
+
+.html {
+  width:90%;
+}
+
+.css {
+  width:80%;
+}
+
+.js {
+  width:85%;
+}
+
+.react {
+  width:90%;
+}
+
+.express {
+  width:80%;
+}
+
+.mysql {
+  width:75%;
+}
+
+.c {
+  width:35%;
+}
+
+.github {
+  width:95%;
+}
+
+.resp {
+  width:90%;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profil-levels {
+  padding-top:50px;
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+}
+
+.profil-img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (min-width: 600px) {
+  .profil-infos {
+    flex-direction: row;
+  }
+}
+@media (min-width: 400px) {
+  .bar{
+    width:200px;
+  }
+}
+
+@media (min-width: 500px) {
+  .bar{
+    width:250px;
+  }
+}
+
+@media (min-width: 900px) {
+  .profil-levels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .profil-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profil-levels {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .profil-img {
+    width: 300px;
+    height: 300px;
+  }
+  .profil-card {
+    max-width: 950px;
+  }
+}

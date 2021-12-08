@@ -34,7 +34,8 @@ const projects = [
     techno: ["React JS", "CSS"],
     img:'https://i.imgur.com/E1Fodks.png',
     desc:"Eh oui, il s'agit du site sur lequel vous êtes actuellement, l'objectif de ce dernier est bien de mettre en avant les projets sur lesquels j'ai pu travailler, mais aussi de m'exercer !",
-    repo:"https://github.com/ThomasFr45/portfolio"
+    repo:"https://github.com/ThomasFr45/portfolio",
+    hosted: "https://portfoliothomas45.netlify.app/"
   },
 ]
 

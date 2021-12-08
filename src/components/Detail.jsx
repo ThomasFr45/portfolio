@@ -1,4 +1,5 @@
 import './Detail.css'
+import CV from '../CV.pdf'
 const Detail = () => {
   return (
     <div className='profil-card'>
@@ -39,6 +40,7 @@ const Detail = () => {
           <h3>Responsive design</h3><span className='bar'><span className='resp'></span></span>
         </div>
       </div>
+      <a href={CV} target="_blank" rel="noreferrer"><div className='profil-button'>Mon CV</div></a>
     </div>
   )
 }

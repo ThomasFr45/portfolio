@@ -10,6 +10,7 @@ const Projects = () => {
               <img className='project-img' src={project.img} alt={project.name} />
               <h3>{project.name}</h3>
               <a href={project.repo} target='_blank' rel="noreferrer" alt='Repo Github'><div className='project-button'>Repo Github</div></a>
+              {project.hosted ? <a href={project.hosted} target='_blank' rel='noreferrer' alt='Hosted site'><div className='project-button'>Site</div></a> : null}
             </div>
               <ul className='project-techno'>
                 {project.techno.map((tech) => (

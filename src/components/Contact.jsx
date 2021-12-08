@@ -41,9 +41,6 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/thomas-fran%C3%A7ois-bba91a221/" rel="noreferrer" target='_blank'><SiLinkedin /></a>
         </div>
         <div className='contact-icon'>
-        <a href="discord.me/contact-me" target='_blank'><SiDiscord /></a>
-        </div>
-        <div className='contact-icon'>
         <a href="mailto:thomasfran1935@gmail.com"><SiGmail /></a>
         </div>
         <div className='contact-icon'>

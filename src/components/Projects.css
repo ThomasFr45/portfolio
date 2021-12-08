@@ -18,6 +18,7 @@
 .project-img {
   width:200px;
   height: 200px;
+  margin-bottom: 20px;
 }
 
 .project-desc {
@@ -34,8 +35,13 @@
 }
 
 .project-techno {
+  margin-top:20px;
   list-style: none;
-  margin-left: 25px;
+}
+
+.project-detail {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-button {

@@ -20,7 +20,7 @@
 .bar {
   background: #353b48;
   display:block;
-  height: 5px;
+  height: 8px;
   width: 150px;
   border: 1px solid rgba(0, 0, 0, 0.658);
   border-radius: 3px;
@@ -29,7 +29,7 @@
 }
 
 .bar span {
-  height: 2px;
+  height: 6px;
   float:left;
   background: #2187e7;
 }

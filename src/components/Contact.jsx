@@ -1,6 +1,6 @@
 import "./Contact.css";
 import emailjs from 'emailjs-com';
-import { SiDiscord, SiGithub, SiLinkedin, SiGmail, SiTwitter } from 'react-icons/si';
+import { SiGithub, SiLinkedin, SiGmail, SiTwitter } from 'react-icons/si';
 const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();

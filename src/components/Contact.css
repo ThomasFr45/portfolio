@@ -47,7 +47,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
-  height: 48px;
+  height: 35px;
   justify-content: center;
   line-height: 1;
   list-style: none;
@@ -97,6 +97,9 @@
   .contact-text {
     width: 300px;
   }
+  .contact-button {
+    height: 38px;
+  }
 }
 
 @media (min-width:750px) {
@@ -105,6 +108,9 @@
   }
   .contact-text {
     width: 400px;
+  }
+  .contact-button {
+    height: 40px;
   }
 }
 
@@ -120,5 +126,8 @@
     width: 700px;
     padding-bottom: 50px;
     border-radius: 20px;
+  }
+  .contact-button {
+    height: 48px;
   }
 }

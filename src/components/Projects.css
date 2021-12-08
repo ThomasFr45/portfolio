@@ -96,6 +96,9 @@
 }
 
 @media (min-width: 900px) {
+  .project-techno {
+    margin-left: 45px;
+  }
   .project-card {
     flex-direction: row;
     width: 800px;

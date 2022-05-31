@@ -19,7 +19,7 @@ const projects = [
     name:"SANY",
     techno: ["React JS", "CSS", "Express", "Mysql"],
     img:'https://via.placeholder.com/150x150',
-    desc:"Voici notre troisième projet proposé lors de notre formation à la Wild Code School, il est actuellement en cours, il s'agit d'un site vitrine pour un SPA.",
+    desc:"Voici notre troisième projet proposé lors de notre formation à la Wild Code School, il s'agit d'un site vitrine pour un SPA. Il n'est malheureusement pas en ligne, mais ce projet nous à permis de travailler à la fois sur un FRONT et un BACK complet.",
     repo:"https://github.com/WildCodeSchool/p3-remote-fr-js-sept21-frontend-sany-"
   },
   {
